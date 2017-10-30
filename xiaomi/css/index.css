@@ -1,0 +1,592 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-17 15:40:32
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-20 18:07:20
+*/
+.a{
+	width: 100%;
+	height: 120px;
+    background-image:  url('../img/pinpairi.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.pinpai{
+	width: 100%;
+	height: 120px;
+	display: block;
+}
+.dh{
+	width: 100%;
+	height: 40px;
+	background-color: #333;
+	padding: 0px 58px;
+}
+.box{
+	width: 1090px;
+	height: 40px;
+	float: left;
+	padding: 13px 0px;
+}
+.dh-left{
+	width: 850px;
+	height: 100%;
+	font-size: 14px;
+	float: left;
+}
+.dh-right{
+	width: 150px;
+	height: 100%;
+	font-size: 14px;
+	float: right;
+}
+.dh-left1{
+    float: left;
+    padding: 0 5px; 
+    border-right: 1px solid #ccc; 
+}
+.dh-left1>a{
+	font-size: 14px;
+	color: #b0b0b0;
+}
+.dh-right1{
+    float: left;
+    padding: 0 5px; 
+    border-right: 1px solid #ccc; 
+}
+.dh-right1>a{
+	font-size: 14px;
+	color: #b0b0b0;
+}
+.scg{
+	border-right: 0px;
+}
+.gwc{
+	width: 120px;
+	height: 40px;
+	float: right;
+	text-align: center;
+	line-height: 40px;
+	color: #b0b0b0;
+	background: #424242;
+}
+.gwc:hover{
+	background: #fff; 
+	cursor: pointer;
+	color: #ff6700;
+}
+.dh>div>div>div>a:hover{
+	color: #fff;
+}
+/* logo列开始啦 */
+.dsh{
+	width: 100%;
+	height: 100px;
+	padding: 25px 58px;
+	background: #fff;
+}
+.logo{
+	width: 55px;
+	height: 55px;
+	padding-top: -3px;
+	padding-bottom: -2px;
+	float: left;
+	cursor: pointer;
+}
+.logozhong{
+	width: 850px;
+	height: 80px;
+	padding-top: 26px;
+	float: left;
+}
+.xfw{
+	width: auto;
+	float: left;
+	padding: 0px 5px;
+}
+.xfw>a{
+	font-size: 18px;
+	color: #333;
+	line-height: 18px;
+
+}
+.xfw:first-child{
+	width: 190px;
+	height: 80px;
+	background: #fff;
+	float: left;
+}
+.xfw>a:hover{
+	color: #ff6700;
+}
+.logoyou{
+	width: 300px;
+	height: 50px;
+	float: right;
+	border: 1px solid #e0e0e0;
+}
+.logoyou:hover{
+	border: 1px solid #ccc;
+}
+.logoyou>div{
+	float: left;
+}
+.ssz{
+	width: 243px;
+	height: 50px;
+	border-right: 1px solid #e0e0e0;
+	padding-top: 16px;
+	padding-left: 64px;
+	padding-right: 5px;
+
+}
+.ssz:hover{
+	border-right: 1px solid #ccc;
+}
+.mix2{
+	width: 66px;
+	height: 18px;
+	background-color: #eee;
+	color: #757575;
+    float: left;
+    font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+}
+.mix2:hover{
+	background-color: #ff6700;
+	color: #fff;
+	cursor: pointer;
+}
+.note3{
+	width: 100px;
+	height: 18px;
+	background-color: #eee;
+	color: #757575;
+	float: right;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+}
+.note3:hover{
+	background-color: #ff6700;
+	color: #fff;
+	cursor: pointer;
+}
+.ssy{
+	width: 55px;
+	height: 50px;
+}
+.ssy>i{
+	width: 100%;
+	height: 100%;
+	line-height: 50px;
+	text-align: center;
+	display: block;
+}
+.ssy>i:hover{
+    background-color: #ff6700;
+    color: #fff;
+    cursor: pointer;
+} 
+.dlbt{
+	width: 100%;
+	height: 460px;
+	padding: 0px 58px;
+}
+.lft{
+	width: 100%;
+	height: 460px;
+	float: left;
+	position: relative;
+}
+.lft:hover{
+	cursor: pointer;
+}
+.lbl{
+	width: 234px;
+	height: 100%;
+	background-color: #000;
+	float: left;
+	padding-top: 15px;
+	background: rgba(0,0,0,.5) ;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.xlbl{
+	width: 100%;
+    height: 43px;
+}
+.xlbl>a{
+	height: 100%;
+	width: 100%;
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 43px;
+    color: #fff;
+}
+.xlbl>a>span{
+	float: left;
+}
+.xlbl>a>i{
+	font-size: 18px;
+	float: right;
+}
+.lft>div>img{
+	float: left;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.xlbl:hover{
+	background: #ff6700;
+	cursor: pointer;
+}
+.lbhezi{
+	width: 998px;
+	height: 100%;
+	float: left;
+	position: absolute;
+	top: 0px;
+	left: 234px;
+    padding-top: 194px;
+}
+.zjt{
+	width: 42px;
+	height: 72px;
+	float: left;
+}
+.zjt:hover{
+	background-color: #7a746e;
+	cursor: pointer;
+	background: rgba(0, 0, 0, .5)
+}
+.zjt>i{
+	font-size: 45px;
+	line-height: 72px;
+	text-align: center;
+	color: #d4d2cf;
+}
+.zjt>i:hover{
+	color: #fff;
+}
+.yjt{
+	width: 42px;
+	height: 72px;
+	float: right;
+}
+.yjt:hover{
+    background-color: #7a746e;
+	cursor: pointer;
+	background: rgba(0, 0, 0, .5)
+}
+.yjt>i{
+	font-size: 45px;
+	line-height: 72px;
+	text-align: center;
+	color: #d4d2cf;
+}
+.yjt>i:hover{
+	color: #fff;
+}
+/* 轮播点移入没反应 */
+.lbd{
+	width: 120px;
+	height: 10px;
+	margin-top: 170px;
+	float: right;
+	margin-left: 850px;
+	margin-right: 35px;
+}
+.dd{
+	width: 10px;
+	height: 10px;
+	margin-right: 10px;
+	background: rgba(0, 0, 0, .5);
+	float: left;
+	border-radius: 50%;
+	border: 1px solid #b7b2ac;
+	
+}
+.dd:hover{
+	
+	background: rgba(124, 156, 200, 0.5)
+}
+.dd1{
+	width: 10px;
+	height: 10px;
+	margin-right: 10px;
+	background-color: #fff;
+	background: rgba(125, 125, 128, 0.5);
+	border-radius: 50%;
+	border: 1px solid #b7b2ac;
+	float: left;
+}
+/* 轮播结束 */
+.a1{
+	width: 100%;
+	height: 175px;
+	padding: 0  60px;
+	margin-top: 14px;
+	float: left;
+	background: yellow;
+}
+.a1 .szuo{
+	width: 234px;
+	height: 100%;
+	background: red;
+	float: left;
+
+}
+.a1 .syou{
+	width: 1240px;
+	height: 100%;
+	background: blue;
+	float: right;
+}
+.szuo .zuobox2{
+	width: 78px;
+	height: 87px;
+	
+	float: left;
+	padding: 80px 1px;s
+	position: absolute;
+}
+
+
+.zuobox2>i{
+	font-size: 15px;
+	color: #ccc;
+	text-align: center;
+	line-height: 53px;
+	display: block;
+	width: 100%;
+	height: 52px;
+	
+}
+
+.zuobox2>p{
+	font-size: 14px;
+	line-height: 14px;
+	text-align: center;
+	color: #ccc;
+	
+}
+.szuo .zuobox1{
+	width: 78px;
+	height: 87px;
+	
+	float: left;
+	padding: -10px 0px;
+	position: absolute;
+}
+
+
+.zuobox1>i{
+	font-size: 15px;
+	color: #ccc;
+	text-align: center;
+	line-height: 53px;
+	display: block;
+	width: 100%;
+	height: 52px;
+	
+}
+
+.zuobox1>p{
+	font-size: 14px;
+	line-height: 14px;
+	text-align: center;
+	color: #ccc;
+	
+}
+.szuo .zuobox3{
+	width: 78px;
+	height: 87px;
+	background: blue;
+	float: left;
+	padding: -10px 5px;
+	position: absolute;
+}
+
+
+.zuobox3>i{
+	font-size: 15px;
+	color: #ccc;
+	text-align: center;
+	line-height: 53px;
+	display: block;
+	width: 100%;
+	height: 52px;
+	
+}
+
+.zuobox3>p{
+	font-size: 14px;
+	line-height: 14px;
+	text-align: center;
+	color: #ccc;
+	
+}
+
+
+
+.danpin{
+	width: 100%;
+	height: 520px;
+	margin-top: 20px;
+	float: left;
+	padding: 0  60px;
+
+}
+
+.wenzi{
+	font-size: 30px;
+	float: left;
+
+}
+.kuang{
+	width: 100px;
+	height: 30px;
+	
+	float: right;
+	margin-top: 5px;
+}
+.zuo{
+	width: 40px;
+	height: 30px;
+	border: 1px solid #b7b2ac;
+	float: left;
+	padding: 2px 8px;
+	cursor: pointer;
+}
+
+.you{
+	width: 40px;
+	height: 30px;
+	float: left;
+	border: 1px solid #b7b2ac;
+	padding: 2px 8px;
+	cursor: pointer;
+}
+.xiaotu>img{
+	width: 233px;
+	height: 344px;
+	position: absolute;
+	float: left;
+	left: 60px;
+	background: blue;
+
+
+}
+.tu1{
+	width: 230px;
+	height: 342px;
+	position: absolute;
+	float: left;
+	margin-top: 50px;
+	background: #FAFAFA;
+	left: 60px;
+	border-top: 1px solid #b7b2ac;
+
+}
+.tu2{
+	width: 230px;
+	height: 342px;
+	position: absolute;
+	float: left;
+	margin-top: 50px;
+	background: #FAFAFA;
+	left: 310px;
+		border-top: 1px solid #b7b2ac;
+}
+.tu3{
+	width: 230px;
+	height: 342px;
+	position: absolute;
+	float: left;
+	margin-top: 50px;
+	background: #FAFAFA;
+	left:555px;
+		border-top: 1px solid #b7b2ac;
+}
+.tu4{
+	width: 230px;
+	height: 342px;
+	position: absolute;
+	float: left;
+	margin-top: 50px;
+	background: #FAFAFA;
+	left: 800px;
+		border-top: 1px solid #b7b2ac;
+}
+.tu5{
+	width: 230px;
+	height: 342px;
+	position: absolute;
+	float: left;
+	margin-top: 50px;
+	background: #FAFAFA;
+	left: 1050px;
+		border-top: 1px solid #b7b2ac;
+}
+.wupin{
+	width: 100%;
+	height: 1500px;
+	background: #F5F5F5;
+	margin-top:  -90px;
+	float: left;
+}
+.jiadian{
+	font-size: 30px;
+	float: left;
+	position: absolute;
+	font-weight: 400;
+	left: 60px;
+	padding: 60px   0;
+	
+}
+.jiadiany{
+	width: 300px;
+	height: 40px;
+
+	position: absolute;
+	
+	right: 65px;
+}
+.jiadiany{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+	padding: 60px   0;
+	cursor: pointer;
+}
+.jiadiany>div:hover{
+	border-bottom:  2px solid #FF6700;
+	color: #FF6700;
+
+}
+.ttu1{
+	width: 230px;
+	height: 500px;
+	justify-content: space-between;
+	position: absolute;
+	left: 60px;
+	margin-top: 130px;
+	
+}
+
+.ttu2{
+	width: 233px;
+	height: 300px;
+	position: absolute;
+	left: 320px;
+	justify-content: space-between;
+	position: absolute;
+	background: #ccc;
+	display: flex;
+	margin-top: 65px;
+}
